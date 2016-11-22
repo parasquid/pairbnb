@@ -50,3 +50,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "clearance"
 gem "omniauth"
 gem "omniauth-facebook"
+
+gem 'acts-as-taggable-on', '~> 4.0'
