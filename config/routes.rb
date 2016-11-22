@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   resources :users, only: [:show, :edit, :update, :destroy]
   get "/auth/:provider/callback" => "sessions#create_from_omniauth"
+  get "/auth/facebook", as: "facebook_sign_in"
 end
