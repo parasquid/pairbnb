@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  city: MyString
+  max_occupants: 1
+  address: MyText
+  description: MyText
+  num_bedrooms: 1
+  availability: false
+  price: 9.99
+  num_bathrooms: 1
+  user: one
+
+two:
+  city: MyString
+  max_occupants: 1
+  address: MyText
+  description: MyText
+  num_bedrooms: 1
+  availability: false
+  price: 9.99
+  num_bathrooms: 1
+  user: two

@@ -52,3 +52,13 @@ gem "omniauth"
 gem "omniauth-facebook"
 
 gem 'acts-as-taggable-on', '~> 4.0'
+
+gem "ffaker"
+
+gem "annotate_models"
+
+gem "will_paginate"
+
+gem 'will_paginate-bootstrap'
+
+gem 'bootstrap-sass', '~> 3.3.6'
