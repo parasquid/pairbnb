@@ -12,6 +12,7 @@
     <th>Price</th>
     <th>Number of Bathrooms</th>
     <th>Listed By</th>
+    <th colspan=3>Actions</th>
   </thead>
   <tbody>
     <% @listings.each do |listing| %>
@@ -25,6 +26,10 @@
         <td><%= number_to_currency listing.price %></td>
         <td><%= listing.num_bathrooms %></td>
         <td><%= listing.user.email %></td>
+
+        <td><%= link_to "Show", listing %></td>
+        <td><%= link_to "Edit", edit_listing_path(listing) %></td>
+        <td><%= link_to "Delete", listing, method: :delete %></td>
       </tr>
     <% end %>
   </tbody>

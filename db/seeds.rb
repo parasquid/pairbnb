@@ -4,6 +4,10 @@ unless user
   puts "created user test@example.com"
 end
 
+User.create(email: "tenant@example.com", password: "password", role: :tenant)
+User.create(email: "landlord@example.com", password: "password", role: :landlord)
+User.create(email: "admin@example.com", password: "password", role: :admin)
+
 70.times do
   listing = Listing.create(
     city: FFaker::Address.city,
